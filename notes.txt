@@ -1,0 +1,93 @@
+// component declaration
+// function Msg(props) {
+//   console.log(props);
+//   const name="Subi";
+//   return (
+//     <div className="App">
+//       <img className="profile-pic"
+//       src={props.pic} 
+//       alt={props.name} />
+//    <h1> Hello , {props.name} </h1>
+//    </div>
+//   );
+// }
+
+// component declaration
+// function Msg(props) {
+//   console.log(props);
+//   const {name  , pic} =props; // object destructuring and we are using this to avoid props.name , props.pic in below lines
+//   return (
+//     <div className="App">
+//       <img className="profile-pic"
+//       src={pic} 
+//       alt={name} />
+//    <h1> Hello , {name} </h1>
+//    </div>
+//   );
+// }
+
+
+
+/////-----------------------
+
+
+DAY 2 NOTES 
+WHU ROUTING?
+
+when no routing --> 
+1.hit refresh u r lost
+2.cannot bookmark
+
+when routing e.g about page, contact page , home page
+1. organised
+2.easy of access
+3. sharing is caring
+4.secure route
+
+Routing in old web apps
+time delay from page to page
+
+to install react router dom
+npm i react-router-dom
+
+
+mv rathu movie kku prop pa pass aagi  antha prop pa movie component la vangi irukom
+
+conditional rendering antha elememt ta dom vite thookirum ( example : false sa irukum pothu
+ inspect panna summary kammikathu)
+
+ ----------------
+ setcolor
+
+ type panrom onchange trigger aaguthu , onchnage vandhu setcolor trigger pannuithu ,
+ setcolor la namma type panna value iruku , setcolor react kita poi inform pannum color poi change pannaum nu
+
+------------------------
+routing setup
+
+npm i react-router-dom
+
+---------------------------
+
+Toggle summary kku conditional rendering concept use pannom
+setmovielist vandhu antha movie list ta change pannarathu kana oru function
+----------------
+
+refactor ---> move to new file
+
+
+routing is conditional rendering
+
+2 types of routers :
+
+1. Browser router
+2.#hash router
+
+anchor tag --> url la change panrathu anchor tag
+router tag --> url la match panrathu
+
+Redirect:
+404
+
+people  typing random url
+NO LONGER THE PAGE EXISTS
